@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(242, 238, 238);
+}
+
+fieldset {
+    background-color:rgb(242, 238, 238);
+    width: 150px;
+    margin:6px 6px;
+    font-size: small;
+    border-style:solid;
+    border-color:darkgrey;
+    font:bold;
+    color:dimgray;
+}
+
+#descricao{
+    text-align: center;
+
+}
+
+.combo_box{
+    margin:6px 0px;
+    width: 150px;
+    font-size:smaller;
+}
+
+.lb_input{
+    width: 68px;
+    margin: 3px 0;
+    
+}
+
+#peso{
+    width: 50px;
+    margin: 0px 5px;
+    margin-left: 13px;
+    text-align: center;
+    
+}
+
+#altura{
+    width: 50px;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+#idade{
+    width: 50px;
+    margin: 0px 5px;
+    margin-left: 9px;
+    text-align: center;            
+}
+
+#resultado{
+    width: 70px;
+    margin: 0px 5px;
+    margin-left: 5px; 
+    text-align: center;
+    color: green;    
+}
+.btn{
+    color:dimgray;
+    margin-left: 80px
+    
+}

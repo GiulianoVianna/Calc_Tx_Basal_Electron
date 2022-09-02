@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./styles.css" rel="stylesheet">
+        <script src="./calculo.js"></script>
+        <title>Tx. Basal</title>
+        
+    </head>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Maromba do Agreste</legend>
+            <p>
+            <legend id="descricao">Taxa Metabólica Basal</legend>
+            <div>
+                <input type="radio" id="homem" name="radiobox"
+                       checked>
+                <label for="homem">Homem</label>
+              </div>          
+              <div>
+                <p>
+                <input type="radio" id="mulher" name="radiobox">
+                <label for="mulher">Mulher</label>
+              </div>
+            <select id="id_atividade" class="combo_box">
+                <option>Nível de Atividade</option>
+                <option>Sedentario</option>
+                <option>Levemente ativo</option>
+                <option>Moderadamente ativo</option>
+                <option>Altamente ativo</option>
+                <option>Extremamente ativo</option>
+            </select>
+            <p>
+                <label class="lb_input">Peso:</label>
+                <input type="text" id="peso" name="peso"> kg<br><br>
+                <label class="lb_input">Altura:</label>
+                <input type="text" id="altura" name="altura"> cm<br><br>
+                <label class="lb_input">Idade:</label>
+                <input type="text" id="idade" name="idade"> anos<br><br>
+                <label class="lb_input">Tx:</label>
+                <input type="text" id="resultado" name="resultado"disabled>calorias<br><br>
+                <button type="button" id="calcular" class="btn"
+                    onclick="calculo()">Calcular!</button>
+            </fieldset>
+        </form>
+        
+    </body>
+
+</html>
