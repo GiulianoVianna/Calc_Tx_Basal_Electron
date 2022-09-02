@@ -52,5 +52,5 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 - [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
 - [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
 
-## License
+
 
